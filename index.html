@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&family=Source+Serif+Pro&display=swap"
+        rel="stylesheet">
+
+<body>
+    <button onclick="showHideElement()" class="trigger-btn"><img src="img/kosarica.svg" alt="Cart bottom"></button>
+
+
+    <div id="main">
+
+        <span class="cart-header">My Cart (5 items)</span>
+        <button onclick="scrollUp()" class="arrow" type="button">^</button>
+
+        <div id="container" class="items">
+            <div class="item">
+                <img src="img/disk1.png" alt="disc">
+
+                <div>
+                    <h4>Set of GT-S Series Cross Drilled</h4>
+                    <p>Brand: Brembo</p>
+                    <p>Color: Red</p>
+                    <span>1 x $1770.00</span>
+                </div>
+            </div>
+            <hr>
+            <div class="item">
+                <img src="img/disk2.png" alt="disc">
+
+                <div>
+                    <h4>Just Disk GT-S Cross Drilled</h4>
+                    <p>Brand: Barbour International</p>
+                    <p>Size: 405mm</p>
+                    <span>1 x $950.00</span>
+                </div>
+            </div>
+            <hr>
+            <div class="item">
+                <img src="img/disk3.png" alt="disc">
+
+                <div>
+                    <h4>GT Slotted 2 Piece Brake Rotors</h4>
+                    <p>Brand: Brembo</p>
+                    <p>Color: Yellow</p>
+                    <span>2 x $1670.00</span>
+                </div>
+            </div>
+            <hr>
+
+            <div class="item z">
+                <img src="img/tekucina.png" alt="disc">
+
+                <div>
+                    <h4>Synthetic Break Fluid</h4>
+                    <p>Brand: Valvoline</p>
+                    <p>Size: 354ml</p>
+                    <span>1 x $10.00</span>
+                </div>
+            </div>
+        </div>
+
+
+        <button onclick="scrollDown()" class="arrow" type="button">ˇ</button>
+
+        <button class="edit-cart">Edit cart</button>
+        <button class="checkout">CHECKOUT</button>
+    </div>
+
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
